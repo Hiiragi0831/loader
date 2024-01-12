@@ -1,10 +1,14 @@
 <script>
 	import Header from '../components/header.svelte';
+	import Footer from '../components/footer.svelte';
 </script>
 
 <Header />
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<main>
+	<h1>Welcome to SvelteKit</h1>
+	<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+</main>
+<Footer />
 
 <style style lang="scss">
     h1 {

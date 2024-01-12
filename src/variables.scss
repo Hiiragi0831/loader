@@ -1,5 +1,8 @@
 /* Variables and mixins declared here will be available in all other SCSS files */
-// SETTINGS
+@import 'scss/reset';
+@import 'scss/functions';
+@import 'scss/mixins';
+
 $desktop-xxl: 2560;
 $desktop-xl: 1920;
 $desktop-lg: 1680;
