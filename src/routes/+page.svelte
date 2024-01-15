@@ -27,6 +27,11 @@
 			.row {
 				display: grid;
 				grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+				gap: vc(15);
+
+				@include devices {
+		  		grid-template-columns: 1fr;
+				}
 			}
 		}
 	}
