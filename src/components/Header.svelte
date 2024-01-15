@@ -9,9 +9,9 @@
 </header>
 
 <style style lang="scss">
-		header {
+	header {
         width: 100%;
-		}
+	}
     nav {
 		display: flex;
 		gap: 20px;
