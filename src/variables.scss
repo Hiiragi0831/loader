@@ -1,15 +1,5 @@
 /* Variables and mixins declared here will be available in all other SCSS files */
-@use 'sass:math';
-
 // Responsible
-@function vw($value, $base: $desktop-md) {
-	@return math.div($value, $base) * 100vw;
-}
-
-@function vm($value, $base: 375) {
-	@return math.div($value, $base) * 100vmin;
-}
-
 @function vc($value) {
 	@return calc(#{$value} * var(--width-multiplier));
 }
@@ -96,8 +86,6 @@
 	}
 }
 
-
-
 @include font-face("FiraSans", 100);
 @include font-face("FiraSans", 200);
 @include font-face("FiraSans", 300);
@@ -107,9 +95,6 @@
 @include font-face("FiraSans", 700);
 @include font-face("FiraSans", 800);
 @include font-face("FiraSans", 900);
-
-
-
 
 $desktop-xxl: 2560;
 $desktop-xl: 1920;

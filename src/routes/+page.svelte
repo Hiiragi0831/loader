@@ -21,7 +21,7 @@
 </main>
 <Footer />
 
-<style style lang="scss">
+<style lang="scss">
 	.home {
 		&__pop {
 			.row {
